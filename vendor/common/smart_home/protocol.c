@@ -1952,10 +1952,7 @@ rx_cb_err_t smart_home_GATT_rx_handle(void *p, int pair_flag)
 int smart_home_GATT_rx_command(void *p) //-- modified to bypass smart_home_rx_handle()
 {
 	smart_home_GATT_rx_handle(p, 0);
-<<<<<<< HEAD
-=======
-	
->>>>>>> 1f12b92e843519077058d62534d1aed98424ec3e
+
 	return 0;
 }
 
